@@ -21,3 +21,8 @@ cd ..
 cp catarroja/enero massanassa/
 cd massanassa
 ls
+cd ..
+mv massanassa/enero massanassa/abril
+cp massanassa/abril hola
+cd paiporta
+rm -r ../massanassa
