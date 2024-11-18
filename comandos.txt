@@ -1,0 +1,23 @@
+ls
+cd home
+ls
+mkdir dana
+cd dana
+mkdir catarroja alfafar paiporta massanassa
+ls
+cd catarroja
+touch enero febrero marzo
+ls
+cd ../alfafar
+cp ../catarroja/* ../alfafar
+cd ..
+cp catarroja/* paiporta
+cd paiporta
+ls
+cd ..
+cd paiporta | rm *ro
+ls
+cd ..
+cp catarroja/enero massanassa/
+cd massanassa
+ls
